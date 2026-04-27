@@ -1,28 +1,28 @@
 class Kubetriage < Formula
   desc "Autonomous SRE Guard for Kubernetes"
   homepage "https://github.com/aavishay/kubetriage"
-  version "1.5.1"
+  version "1.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/aavishay/kubetriage/releases/download/v#{version}/kubetriage-v#{version}-darwin-arm64.tar.gz"
-      sha256 "7c6da00302b2c383f66b6d724a6efc0d4ff398f7119c473e1740c7a91e1d1b1f"
+      url "https://github.com/aavishay/kubetriage/releases/download/v1.7.0/kubetriage-v1.7.0-dirty-darwin-arm64.tar.gz"
+      sha256 "2e906f02ab0620cc53735447720cb0de10b36a51c760ba45fb7f51a73ded2002"
     end
     on_intel do
-      url "https://github.com/aavishay/kubetriage/releases/download/v#{version}/kubetriage-v#{version}-darwin-amd64.tar.gz"
-      sha256 "c38eedc048a7a7da139dff83df292219e7745cad7bf982075191d40ae083f60b"
+      url "https://github.com/aavishay/kubetriage/releases/download/v1.7.0/kubetriage-v1.7.0-dirty-darwin-amd64.tar.gz"
+      sha256 "162b740a42eca690eb90f8a6299bb49abf14c1caad7b5d6384ac25e03771e2ad"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/aavishay/kubetriage/releases/download/v#{version}/kubetriage-v#{version}-linux-amd64.tar.gz"
-      sha256 "de200b69fc824306420dbc2de2b5b0591e05c888448d77d0a689fe0346a6d418"
+      url "https://github.com/aavishay/kubetriage/releases/download/v1.7.0/kubetriage-v1.7.0-dirty-linux-amd64.tar.gz"
+      sha256 "c6253892f9b164a8e458a06600a3d19544d4146bc2c15d75a77bbe26368f5697"
     end
     on_arm do
-      url "https://github.com/aavishay/kubetriage/releases/download/v#{version}/kubetriage-v#{version}-linux-arm64.tar.gz"
-      sha256 "f1236160a4951edc11940aef382e9bfa7eda496e964b16ef857866e5bb791a4a"
+      url "https://github.com/aavishay/kubetriage/releases/download/v1.7.0/kubetriage-v1.7.0-dirty-linux-arm64.tar.gz"
+      sha256 "333d918b785581699f05f889616463bccebd535589ee52464a4cccff90c8b562"
     end
   end
 
